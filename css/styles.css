@@ -340,9 +340,8 @@ transition: 0.2s opacity;
   }
   .profile-portrait {
     width: 250px;
-    height: 250px
-    margin: 0 50px;
-    align-content: space-around;
+    height: 250px;
+    align-self: center;
   }
   #profile_banner, #profile_button {
     position: static;
