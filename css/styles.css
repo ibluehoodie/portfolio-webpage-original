@@ -131,6 +131,9 @@ border-radius: 3px;
 border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 transition: 0.2s opacity;
 }
+.cv-button:visited {
+  color: white;
+}
 .submit-button:hover, .cv-button:hover, .submit-button:focus, .cv-button:focus {
   cursor: pointer;
   opacity: 0.8;
@@ -395,9 +398,9 @@ transition: 0.2s opacity;
 
 /*Contact Page Styling*/
 .contact-container {
-  margin: 20px;
+  text-align: center;
 }
 #contact-form {
-  margin: 20px;
+  text-align: center;
   margin-bottom: 0px;
 }
