@@ -191,6 +191,12 @@ transition: 0.2s opacity;
 }
 
 /* About Section*/
+.about-me {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
 .house-words, #house-words_banner {
     clear: both;
     display: flex;
@@ -202,7 +208,6 @@ transition: 0.2s opacity;
   display: inline-block;
   width: 50%;
 }
-
 @supports (display: grid) {
   .about-grid {
    display: grid;
@@ -213,7 +218,7 @@ transition: 0.2s opacity;
  .about-grid_column {
    width: auto;
    min-height: auto;
-   padding: 10px;
+   padding: 0px;
    text-align: center;
  }
  .about-list {
@@ -239,6 +244,9 @@ transition: 0.2s opacity;
  }
 }
 /*Animation - About*/
+#about-picture {
+  margin: 0 2% 5% 2%;
+}
 @keyframes color-change {
   0% {
     fill: #edc655;
