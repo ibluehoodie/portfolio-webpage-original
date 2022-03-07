@@ -202,6 +202,7 @@ button:focus {
   height: 250px;
   margin: 20px 40px;
   border-radius: 50%;
+  border: 5px solid var(--primary-teal);
 }
 
 .profile-text {
@@ -504,4 +505,11 @@ button:focus {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#contact-email,
+#contact-tel,
+#contact-msg {
+  background-color: rgba(31, 68, 79, 0.25);
+  border-radius: 3%;
 }
