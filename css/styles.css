@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background-color: white;
+  background-color: white/*#eaf2fa*/;
 }
 
 body {
@@ -384,8 +384,6 @@ button:focus {
   }
 
   .grid__item {
-    /* background-color: var(--darker-turquoise); */
-
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3999/Tilt-Shift_-_Cityscene.jpg);
     color: #fff;
     width: auto;
