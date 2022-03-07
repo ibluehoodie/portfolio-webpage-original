@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  background-color: white/*#eaf2fa*/;
+  background-color: white;
 }
 
 body {
@@ -369,6 +369,7 @@ button:focus {
 /* end grid fallback */
 
 /* Work Grid */
+
 @supports (display: grid) {
   .grid {
     display: grid;
@@ -377,12 +378,34 @@ button:focus {
     margin: 20px;
   }
 
+  .grid div {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
   .grid__item {
-    background-color: var(--darker-turquoise);
-    padding: 10px;
+    /* background-color: var(--darker-turquoise); */
+
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3999/Tilt-Shift_-_Cityscene.jpg);
+    color: #fff;
     width: auto;
-    min-height: auto;
-    margin: 0;
+    margin: 10px;
+    padding: 20px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: 0.2s opacity;
+    -o-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+  }
+
+  .grid__item:hover,
+  .grid__item:focus {
+    cursor: pointer;
+    opacity: 0.7;
   }
 
   .grid__item:last-child {
