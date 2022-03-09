@@ -1,0 +1,32 @@
+LINTERS USED on ATOM:
+
+linter 3.4.0
+linter-ui-default 3.4.1
+busy-signal 2.0.1
+intentions 2.1.1
+-by steelbrain
+
+linter-htmlhint 1.6.3
+linter-stylelint 4.5.1
+linter-tidy 2.4.0
+-by AtomLinter
+
+w3c-validation 2.4.0
+-by leny
+
+There was a PATH issue with linter-tidy. I couldn't tell if the others worked or not, except for linter-stylelint. I fixed all syntax suggestions for the styles.css file.
+
+
+CROSS-BROWSER TESTING:
+
+works on...
+Edge for Windows
+Safari for Mac
+Firefox for Mac and Windows
+Chrome for Mac and Windows
+Opera for Mac and Windows
+iPAd
+iPhone 11
+
+No issues found
+
