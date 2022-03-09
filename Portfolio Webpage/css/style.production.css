@@ -172,8 +172,6 @@ transition: 0.2s opacity;
 .profile {
   max-width: 800px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
 }
 .profile-portrait {
   float: left;
@@ -409,13 +407,6 @@ transition: 0.2s opacity;
 }
 /*Responsive Design - Profile*/
 @media all and (max-width: 550px) {
-  .page-header {
-    flex-direction: column;
-  }
-  .page-header_item:last-child {
-    text-align: center;
-  }
-
   .profile-text {
     clear: left;
     display: -webkit-box;
