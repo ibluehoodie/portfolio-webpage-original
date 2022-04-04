@@ -23,9 +23,6 @@ html {
 
 body {
   background-color: white/*#eaf2fa*/;
-}
-
-body {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: var(--p-standard);
@@ -119,6 +116,10 @@ a:active {
 }
 
 .navigation-list_item--active {
+  text-decoration: underline;
+}
+
+.navigation-list_item {
   text-decoration: none;
 }
 
