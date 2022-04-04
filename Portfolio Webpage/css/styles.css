@@ -79,7 +79,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:active {
@@ -118,8 +118,12 @@ a:active {
   margin-left: 15px;
 }
 
-.navigation-list_item--active {
+.navigation-list_item {
   text-decoration: none;
+}
+
+.navigation-list_item--active {
+  text-decoration: underline;
 }
 
 /* Profile Styling */
